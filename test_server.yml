@@ -16,7 +16,7 @@ deployments:
       server_template: 'AEM APD Template'
       server_ssh_key_uid: '1'
       server_subnet_uid: ''
-      server_subnet_href: '/api/clouds/2/subnets/423712CN9N59U'
+      server_subnet_href: '/'
       server_security_group_uid: ''
       server_runtime_file: '_servers.yml'
       server_tags:
@@ -24,7 +24,7 @@ deployments:
           server_tag_2: 'node:hostname=author_test'
       server_inputs:
         - GITHUB_KNOWN_HOST: 'cred:GITHUB_KNOWN_HOST'
-          GITHUB_ACCOUNT: 'text:TravelSupermarket'
+          GITHUB_ACCOUNT: 'text:iluha821'
           BRANCH_OR_TAG: 'text:master'
           ROLE: 'text:author'
           ID_RSA: 'cred:GITHUB_SSH_KEY'
